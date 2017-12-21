@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Open Village Wiki |  Sample Jekyll Blog</title>
+        <link rel="stylesheet" href="/style.css" />
+        <meta name="description" content="This is a sample Jekyll Blog."/>
+        <meta name="author" content="Your Name"/>
+        <link rel="author" href="humans.txt"/>
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
+
+        <link rel="stylesheet" href="/resources/fontello/css/fontello.css">
+        <link rel="stylesheet" href="/resources/fontello/css/animation.css">
+        <!--[if IE 7]><link rel="stylesheet" href="/resources/fontello/css/fontello-ie7.css"><![endif]-->
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="/">Welcome to Sample Jekyll Blog</a></h1>
+                <h4>This is a sample Jekyll Blog.</h4>
+            <hr />
+        </header>
+
+        <nav>
+
+            <h3>First Heading</h3>
+
+            <ul>
+                <li><i class="icon-home"></i>   <a href="/">Home</a></li>
+                <li><i class="icon-mail"></i>   <a href="/contact">Contact</a></li>
+                <li><i class="icon-th"></i>     <a href="/archive">Archive</a></li>
+                <li><i class="icon-rss"></i>    <a href="/feed.xml">RSS Feed</a></li>
+            </ul>
+
+            <h3>Second Heading</h3>
+
+            <ul>
+                <li><i class="icon-link"></i>   <a href="#">Link 1</a></li>
+                <li><i class="icon-link"></i>   <a href="#">Link 2</a></li>
+                <li><i class="icon-link"></i>   <a href="#">Link 3</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <article>
+        <header>
+            <h2>Open Village Wiki</h2>
+            <span><i class="icon-clock"></i><time datetime="2017-02-10">Feb 10, 2017</time></span><br/>
+            <span class="category"><i class="icon-tag"></i> Blog</span><br/>
+            <span class="author"><i class="icon-user"></i> openvil</span>
+        </header>
+
+        <div class="entry"><p>We've now got our wiki up and running to collect ideas and feedback from the community. Feel free to edit away!</p>
+<p style="text-align: center;">[otw_shortcode_button href="http://wiki.openvillage.org" size="large" icon_type="general foundicon-edit" icon_position="left" shape="radius" target="_blank"]Visit Wiki[/otw_shortcode_button]</p>
+</div>
+
+        <footer><!-- additional info --></footer>
+
+</article>
+
+
+
+        </main>
+
+        <footer>
+            <hr />
+            <p>&copy; <time>2012</time> Your Name</p>
+        </footer>
+
+        <script src="/scripts.js"></script>
+    </body>
+
+</html>

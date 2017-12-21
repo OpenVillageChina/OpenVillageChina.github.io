@@ -6,6 +6,101 @@
 		<link>http://localhost:4000</link>
 		
 			<item>
+				<title>We won some awards!</title>
+				<description>&lt;p&gt;We recently won some awards from the Chinese government, namely &quot;The New Normal Social Responsibility Excellence Award&quot; for our Open Source Village concept, and &quot;The New Normal Social Responsibility Cutting-Edge Enterprise Award&quot; for our company Maxcity.&lt;/p&gt;
+&lt;p&gt;[gallery columns=&quot;5&quot; ids=&quot;321,322,323,324,325&quot;]&lt;/p&gt;
+</description>
+				<published>2017-03-02 17:31:25 +0800</published>
+				<link>http://localhost:4000/blog/2017/03/02/we-won-some-awards/</link>
+			</item>
+		
+			<item>
+				<title>Confused about Creative Commons?</title>
+				<description>&lt;p&gt;Creative Commons is a set of licenses for sharing your work with others. &lt;a href=&quot;http://hacktoon.com/grandware/courses/creative-commons/&quot;&gt;Hacktoon's comic&lt;/a&gt; does an excellent job of explaining it!&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-317&quot; src=&quot;/assets/creative-commons.png&quot; alt=&quot;&quot; width=&quot;600&quot; height=&quot;1380&quot; /&gt;&lt;/p&gt;
+</description>
+				<published>2017-02-27 20:19:57 +0800</published>
+				<link>http://localhost:4000/blog/2017/02/27/confused-about-creative-commons/</link>
+			</item>
+		
+			<item>
+				<title>Open Village Wiki</title>
+				<description>&lt;p&gt;We've now got our wiki up and running to collect ideas and feedback from the community. Feel free to edit away!&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;[otw_shortcode_button href=&quot;http://wiki.openvillage.org&quot; size=&quot;large&quot; icon_type=&quot;general foundicon-edit&quot; icon_position=&quot;left&quot; shape=&quot;radius&quot; target=&quot;_blank&quot;]Visit Wiki[/otw_shortcode_button]&lt;/p&gt;
+</description>
+				<published>2017-02-10 13:18:56 +0800</published>
+				<link>http://localhost:4000/blog/2017/02/10/open-village-wiki/</link>
+			</item>
+		
+			<item>
+				<title>The Joys of AutoCAD File Conversion</title>
+				<description>&lt;p&gt;After several days in front of a computer, with much wailing and gnashing of teeth, we've got the &lt;a href=&quot;https://github.com/OpenVillageChina/site-survey&quot; target=&quot;_blank&quot;&gt;site surveys&lt;/a&gt; ready for anyone who wants to use them!&lt;/p&gt;
+&lt;h3&gt;The Struggle is Real&lt;/h3&gt;
+&lt;p&gt;Getting the files looking and playing nice was a whole struggle in itself. We're a multinational team, and many of us are still learning &lt;a href=&quot;https://opensource.com/resources/what-open-source&quot;&gt;what this whole Open Source thing is&lt;/a&gt;. I'm a Brit trying to communicate with the Chinese CAD designer through a middle-man, switching between English and Mandarin to explain what I need. Thankfully certain things like DWG, DXF, and SHX don't need translation!&lt;/p&gt;
+&lt;p&gt;Most of the work involved:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Converting the proprietary &lt;a href=&quot;http://www.autodesk.com/products/autocad/overview&quot;&gt;AutoCAD&lt;/a&gt; DWG (DraWinG) files to the open DXF (Drawing eXchange Format). This entailed dusting off an old copy of AutoCAD and getting it to play nicely on my HiDPI screen. Note: If you value your sanity and patience, don't run AutoCAD on a Microsoft Surface or other low-spec machine. You can practically hear the CPU groaning away.&lt;/li&gt;
+&lt;li&gt;Getting a bunch of missing &lt;a href=&quot;http://whatis.techtarget.com/fileformat/SHX-Shape-entities-AutoCAD&quot;&gt;SHX&lt;/a&gt; files from...well, wherever I could find them. Most of them were only available from dodgy-looking Chinese download sites, and Chrome didn't want (or even allow) me to open the files I downloaded. Luckily Microsoft Edge came to the rescue. Thank you disregard for user safety!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;What still needs to be done?&lt;/h3&gt;
+&lt;p&gt;I can see the next few days being a barrel of laughs as I go from being a fresh-faced CAD novice to a bitter and twisted CAD burnout. I'll be working on trying to get the DXF file looking nice in open-source alternatives to AutoCAD. The file should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone size-large wp-image-210&quot; src=&quot;/assets/2017-01-18-14_23_09--e1484702249274-900x1024.png&quot; alt=&quot;&quot; width=&quot;640&quot; height=&quot;728&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;But in FreeCAD it looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone size-large wp-image-211&quot; src=&quot;/assets/2017-01-18-14_21_21--e1484702318493-952x1024.png&quot; alt=&quot;&quot; width=&quot;640&quot; height=&quot;688&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;How could we improve this process?&lt;/h3&gt;
+&lt;p&gt;Unfortunately, closed-source software like AutoCAD is the industry standard. Sure, we could push everyone at the organization to run &lt;a href=&quot;http://www.freecadweb.org&quot;&gt;FreeCAD&lt;/a&gt;, but we're trying to balance real-world practicality with open-source philosophy. Maybe someday we'll make that transition, but we've got more pressing things at hand right now.&lt;/p&gt;
+&lt;p&gt;I've downloaded all the missing SHX files that were referenced in the original DWG file and put them in one folder. I'd provide a link but I have no idea of the license these things are released under.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone size-large wp-image-212&quot; src=&quot;/assets/2017-01-18-14_35_04-Fonts-1024x295.png&quot; alt=&quot;&quot; width=&quot;640&quot; height=&quot;184&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;That should help in the future, and I'd like to get the designer to ship any further SHXes they use. In the meantime, I found a big zip files of SHXes so hopefully that'll contain anything that's missing.&lt;/p&gt;
+</description>
+				<published>2017-01-22 14:36:40 +0800</published>
+				<link>http://localhost:4000/blog/from%20the%20trenches/2017/01/22/the-joys-of-autocad-file-conversion/</link>
+			</item>
+		
+			<item>
+				<title>我们在Instagram!</title>
+				<description></description>
+				<published>2017-01-18 14:59:00 +0800</published>
+				<link>http://localhost:4000/2017/01/18/e6-88-91-e4-bb-ac-e5-9c-a8instagram/</link>
+			</item>
+		
+			<item>
+				<title>Ebooks on Open Source</title>
+				<description>&lt;p&gt;We're releasing a bunch of articles about open source in ebook format for you to read on your Kindle or other device. They're just existing articles about open source from around the web (that are freely licensed to share), so quite short and snappy compared to a full-length book.&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;Why? Sitting in front of a glowing screen all day can wreck your eyesight, so reading lots of stuff is much healthier on a dedicated ebook reader.&lt;/p&gt;
+&lt;p&gt;You can find the books in our &lt;a href=&quot;https://www.dropbox.com/sh/mgpiqhb6pb0tlk8/AACtFPpw5hoqyiuwc-BxSvNZa?dl=0&quot;&gt;Dropbox folder&lt;/a&gt;. Since they're under open licenses (mostly Creative Commons), feel free to share, translate, etc etc!&lt;/p&gt;
+&lt;p&gt;If you need convert the epub format for your device, check out &lt;a href=&quot;https://calibre-ebook.com/&quot;&gt;Calibre &lt;/a&gt;on Linux, Mac, or Windows&lt;/p&gt;
+</description>
+				<published>2017-01-15 22:40:59 +0800</published>
+				<link>http://localhost:4000/articles/2017/01/15/ebooks-on-open-source/</link>
+			</item>
+		
+			<item>
+				<title>We're on Twitter</title>
+				<description>&lt;p&gt;Check our Twitter feed for all the latest news and comments from our team at the Open Source Village. For those in China we're working on our Wechat feed too!&lt;/p&gt;
+</description>
+				<published>2017-01-13 01:31:58 +0800</published>
+				<link>http://localhost:4000/2017/01/13/were-on-twitter/</link>
+			</item>
+		
+			<item>
+				<title>We're on Instagram!</title>
+				<description></description>
+				<published>2017-01-04 03:30:50 +0800</published>
+				<link>http://localhost:4000/2017/01/04/were-on-instagram/</link>
+			</item>
+		
+			<item>
+				<title>Our Big Open Source Technology List</title>
+				<description>&lt;p&gt;We're &lt;strong&gt;&lt;a href=&quot;http://trello.com/b/wLXrPjWX/open-source-village-technologies&quot;&gt;building a big list of open source technologies&lt;/a&gt;&lt;/strong&gt; that could be used in ecovillages, and we'd like your help to make it bigger and better.&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;We're using Trello to organize it - it's like a pinboard of cards that you can arrange into different categories. You can check out the list &lt;a href=&quot;http://trello.com/b/wLXrPjWX/open-source-village-technologies&quot;&gt;here&lt;/a&gt;, and if you'd like to contribute just &lt;a href=&quot;/contact-us&quot;&gt;contact us&lt;/a&gt; and we'll send you an invite link!&lt;/p&gt;
+</description>
+				<published>2017-01-04 01:16:02 +0800</published>
+				<link>http://localhost:4000/2017/01/04/our-big-open-source-technology-list/</link>
+			</item>
+		
+			<item>
 				<title>Guest Posts</title>
 				<description>&lt;p&gt;If you want to create a guest post that will appear as if written by another author, simply add an &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; attribute to the 
 YAML header of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page 
@@ -13,53 +108,6 @@ as well as on the individual post pages.&lt;/p&gt;
 </description>
 				<published>2012-03-15 00:00:00 +0800</published>
 				<link>http://localhost:4000/meta/2012/03/15/guest-blogs/</link>
-			</item>
-		
-			<item>
-				<title>Code Snippets</title>
-				<description>&lt;p&gt;Whenever you need to post a code snippet, use the liquid tags &lt;code class=&quot;highlighter-rouge&quot;&gt;hilight&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;endhilight&lt;/code&gt; like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# some code goes here
-&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Note that this only provides color-coding. For that you might need to use a front end colorization engine like Highlight.JS or something similar.&lt;/p&gt;
-</description>
-				<published>2012-02-10 00:00:00 +0800</published>
-				<link>http://localhost:4000/design/2012/02/10/code-snippets/</link>
-			</item>
-		
-			<item>
-				<title>Using the Web Icons</title>
-				<description>&lt;p&gt;This template uses &lt;a href=&quot;http://typicons.com/&quot;&gt;Typicons&lt;/a&gt; web font, provided by &lt;a href=&quot;http://fontello.com/&quot;&gt;Fontello&lt;/a&gt; font bundling service. It allows you to quickly
-add nice icons into your pages by using css tags.&lt;/p&gt;
-
-&lt;p&gt;To add an icon somewhere in the template simply do:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon-home&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This will insert a home icon, just as the one seen in the sidebar. The available class names you can use are as follows:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/resources/img/icons.png&quot; alt=&quot;Available Icons&quot; title=&quot;Available Icons&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;These should work in all the browsers, all the way down to and including IE7, but not IE6.&lt;/p&gt;
-
-</description>
-				<published>2012-01-19 00:00:00 +0800</published>
-				<link>http://localhost:4000/design/2012/01/19/using-web-icons/</link>
-			</item>
-		
-			<item>
-				<title>Hello World!</title>
-				<description>&lt;p&gt;Hello World!&lt;/p&gt;
-
-&lt;p&gt;This is just a sample post.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit. Praesent blandit, mi id facilisis adipiscing, tortor tellus mollis quam, sed dignissim sapien diam ac lectus. Nunc eget ornare quam. Vivamus sit amet tortor dolor, non egestas ligula. Mauris nisi risus, semper nec blandit id, suscipit eget dolor. Sed placerat odio at erat porttitor varius. Phasellus ornare vestibulum dolor ac rhoncus. Mauris laoreet varius est eu rhoncus. Curabitur facilisis mauris eu purus pharetra vitae tincidunt nulla gravida. Duis sagittis, felis a luctus mattis, metus sem tempus velit, sit amet blandit tellus nisi id augue.&lt;/p&gt;
-
-&lt;p&gt;Proin feugiat libero ac lorem mollis fermentum. Cras et lacus sodales nisl facilisis ornare. Sed dolor eros, pulvinar ac varius non, bibendum eget odio. Nulla facilisi. Pellentesque et nisi a tellus ullamcorper faucibus. Nullam sagittis tempor mi non mattis. Proin ultricies, enim sit amet bibendum tristique, ligula ante feugiat nunc, sit amet imperdiet tortor nisl et felis. Pellentesque et nisl dui, non dictum libero. Vivamus tempor ante ac leo suscipit a sodales ligula iaculis. Curabitur massa mi, semper sed bibendum eget, auctor in nulla. Quisque at mi in ligula viverra suscipit sed vitae leo.&lt;/p&gt;
-</description>
-				<published>2012-01-18 00:00:00 +0800</published>
-				<link>http://localhost:4000/meta/2012/01/18/hello-world/</link>
 			</item>
 		
 	</channel>

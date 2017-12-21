@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Ebooks on Open Source |  Sample Jekyll Blog</title>
+        <link rel="stylesheet" href="/style.css" />
+        <meta name="description" content="This is a sample Jekyll Blog."/>
+        <meta name="author" content="Your Name"/>
+        <link rel="author" href="humans.txt"/>
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
+
+        <link rel="stylesheet" href="/resources/fontello/css/fontello.css">
+        <link rel="stylesheet" href="/resources/fontello/css/animation.css">
+        <!--[if IE 7]><link rel="stylesheet" href="/resources/fontello/css/fontello-ie7.css"><![endif]-->
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="/">Welcome to Sample Jekyll Blog</a></h1>
+                <h4>This is a sample Jekyll Blog.</h4>
+            <hr />
+        </header>
+
+        <nav>
+
+            <h3>First Heading</h3>
+
+            <ul>
+                <li><i class="icon-home"></i>   <a href="/">Home</a></li>
+                <li><i class="icon-mail"></i>   <a href="/contact">Contact</a></li>
+                <li><i class="icon-th"></i>     <a href="/archive">Archive</a></li>
+                <li><i class="icon-rss"></i>    <a href="/feed.xml">RSS Feed</a></li>
+            </ul>
+
+            <h3>Second Heading</h3>
+
+            <ul>
+                <li><i class="icon-link"></i>   <a href="#">Link 1</a></li>
+                <li><i class="icon-link"></i>   <a href="#">Link 2</a></li>
+                <li><i class="icon-link"></i>   <a href="#">Link 3</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <article>
+        <header>
+            <h2>Ebooks on Open Source</h2>
+            <span><i class="icon-clock"></i><time datetime="2017-01-15">Jan 15, 2017</time></span><br/>
+            <span class="category"><i class="icon-tag"></i> Articles</span><br/>
+            <span class="author"><i class="icon-user"></i> openvil</span>
+        </header>
+
+        <div class="entry"><p>We're releasing a bunch of articles about open source in ebook format for you to read on your Kindle or other device. They're just existing articles about open source from around the web (that are freely licensed to share), so quite short and snappy compared to a full-length book.<!--more--></p>
+<p>Why? Sitting in front of a glowing screen all day can wreck your eyesight, so reading lots of stuff is much healthier on a dedicated ebook reader.</p>
+<p>You can find the books in our <a href="https://www.dropbox.com/sh/mgpiqhb6pb0tlk8/AACtFPpw5hoqyiuwc-BxSvNZa?dl=0">Dropbox folder</a>. Since they're under open licenses (mostly Creative Commons), feel free to share, translate, etc etc!</p>
+<p>If you need convert the epub format for your device, check out <a href="https://calibre-ebook.com/">Calibre </a>on Linux, Mac, or Windows</p>
+</div>
+
+        <footer><!-- additional info --></footer>
+
+</article>
+
+
+
+        </main>
+
+        <footer>
+            <hr />
+            <p>&copy; <time>2012</time> Your Name</p>
+        </footer>
+
+        <script src="/scripts.js"></script>
+    </body>
+
+</html>
