@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title> Sample Jekyll Blog</title>
+        <title> Guest Posts |  Sample Jekyll Blog</title>
         <link rel="stylesheet" href="/style.css" />
         <meta name="description" content="This is a sample Jekyll Blog."/>
         <meta name="author" content="Your Name"/>
@@ -44,14 +44,22 @@
 
         <main>
 
-            <div class="post">
+            <article>
+        <header>
+            <h2>Guest Posts</h2>
+            <span><i class="icon-clock"></i><time datetime="2012-03-15">Mar 15, 2012</time></span><br/>
+            <span class="category"><i class="icon-tag"></i> Meta</span><br/>
+            <span class="author"><i class="icon-user"></i> John Smith</span>
+        </header>
 
-    <h2></h2>
-
-	<div class="entry"><p>#Title</p>
+        <div class="entry"><p>If you want to create a guest post that will appear as if written by another author, simply add an <code class="highlighter-rouge">author</code> attribute to the 
+YAML header of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page 
+as well as on the individual post pages.</p>
 </div>
 
-</div>
+        <footer><!-- additional info --></footer>
+
+</article>
 
 
 

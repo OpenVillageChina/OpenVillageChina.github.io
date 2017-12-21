@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title> Sample Jekyll Blog</title>
+        <title> Code Snippets |  Sample Jekyll Blog</title>
         <link rel="stylesheet" href="/style.css" />
         <meta name="description" content="This is a sample Jekyll Blog."/>
         <meta name="author" content="Your Name"/>
@@ -44,14 +44,25 @@
 
         <main>
 
-            <div class="post">
+            <article>
+        <header>
+            <h2>Code Snippets</h2>
+            <span><i class="icon-clock"></i><time datetime="2012-02-10">Feb 10, 2012</time></span><br/>
+            <span class="category"><i class="icon-tag"></i> Design</span><br/>
+            <span class="author"><i class="icon-user"></i> Your Name</span>
+        </header>
 
-    <h2></h2>
+        <div class="entry"><p>Whenever you need to post a code snippet, use the liquid tags <code class="highlighter-rouge">hilight</code> and <code class="highlighter-rouge">endhilight</code> like this:</p>
 
-	<div class="entry"><p>#Title</p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># some code goes here
+</span><br data-jekyll-commonmark-ghpages="" /><span class="nb">puts</span> <span class="s2">"Hello World!"</span></code></pre></figure>
+
+<p>Note that this only provides color-coding. For that you might need to use a front end colorization engine like Highlight.JS or something similar.</p>
 </div>
 
-</div>
+        <footer><!-- additional info --></footer>
+
+</article>
 
 
 
